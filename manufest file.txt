@@ -18,7 +18,7 @@ spec:
    spec:
     containers:
     - name: batch-container
-      image: busybox-latest
+      image: busybox:latest
       command: ["sh" , "-c" ,"echo Hello Dosto! && sleep 10"]
     restartPolicy: Never
 
